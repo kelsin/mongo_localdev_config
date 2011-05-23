@@ -15,5 +15,5 @@ echo "- Waiting for config server to start ..."
 sleep 5
 
 echo "* Starting router"
-mongos --configdb localhost:27019 --chunksize 1 --logpath $SWMONGO/logs/router.log --logappend
+mongos --port 27017 --configdb localhost:27019 --chunksize 1 --logpath $SWMONGO/logs/router.log --logappend
 
