@@ -6,3 +6,4 @@ shard2/slave1
 shard2/slave2
 config
 logs
+pids
